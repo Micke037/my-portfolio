@@ -1,0 +1,53 @@
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(212, 45%, 89%);
+      
+    }
+
+    article {
+      font-size: 15px;
+      margin: 150px auto;
+      max-width: 255px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+
+    .qr-code {
+      max-width: 230px;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      margin: 0 15px;
+    }
+
+    .main-text {
+      font-weight: 700;
+      font-size: 18px;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .secondary-text {
+      color: hsl(220, 15%, 55%);
+      margin-bottom: 30px;
+      font-size: 13px;
+    }
+
+  
