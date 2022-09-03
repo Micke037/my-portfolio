@@ -173,6 +173,7 @@ main p {
 
 .email {
     font-size: 22px;
+    font-weight: 200;
     text-decoration: none;
     color: #f4f4f4;
     transition: 0.2s;
