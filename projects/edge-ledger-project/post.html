@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Post Number One</title>
+</head>
+<body id="home">
+    <header class="hero blog">
+        <div id="navbar" class="navbar top">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#ases">Cases</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Blog</h1>
+            
+        </div>
+    </header>
+
+    <main>
+        <section class="post">
+            <h2>Blog Post One</h2>
+            <p class="meta">
+                <i class="fas fa-user"></i> Posted by <strong>Jimbo Musket </strong>April 19 2022
+            </p>
+            <img src="images/blog/blog1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ut cupiditate quisquam consequuntur cum sed aperiam esse
+                molestias nobis, beatae, temporibus tempore molestiae 
+                cumque ipsum incidunt mollitia. Amet atque aspernatur iste!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Consectetur voluptatum blanditiis, commodi rerum 
+                iusto quibusdam perspiciatis minus ut fugiat, numquam debitis at, 
+                corrupti voluptate alias est tempore quis vitae nobis ipsum nam cum? 
+                Fuga sint maxime, quibusdam dolor numquam magnam enim quis. Iusto porro 
+                sit labore esse iste maiores 
+                ipsum quam sapiente quod dolorem quis, facere nemo sunt rerum doloribus.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Nam cupiditate accusantium ab omnis et 
+                vitae voluptate, deleniti debitis doloremque animi tempora 
+                vel sint commodi earum a totam esse repellendus qui facere 
+                veniam sequi maiores! Laudantium quia quibusdam fugit quis iure 
+                odio, dolor provident. 
+                Commodi, itaque iste excepturi expedita ullam suscipit?</p>
+        </section>
+    </main>
+
+<footer class="footer bg-dark">
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - EdgeLedger</p>
+</footer>
+
+<script>
+
+    const navbar = document.getElementById('navbar');
+        let scrolled = false;
+    
+        window.onscroll = function() {
+            if(window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+                if(!scrolled) {
+                    navbar.style.transform = 'translateY(-70px)'
+                }
+                setTimeout(
+                    function() {
+                        navbar.style.transform = 'translateY(0)'
+                        scrolled = true
+                    }, 200);
+            } else{
+                navbar.classList.add('top');
+                scrolled = false;
+            }
+        };
+    
+        </script>
+
+</body>
+</html>
