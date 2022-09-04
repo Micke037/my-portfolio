@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://kit.fontawesome.com/f0591596a8.js" 
+    <script src="https://kit.fontawesome.com/f0591596a8.js"
     crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,11 +17,30 @@ rel="stylesheet">
     <link rel="stylesheet" media="screen and (max-width: 768px)" 
     href="css/mobile.css">
 
+    <link rel="stylesheet" href="../header.css">
+
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <title>NewsGrid | Latest News</title>
 </head>
 <body>
+
+    <header>
+
+      <div class="h1-box">
+          
+          <ion-icon onclick="myFunction()" class="dropbtn" name="chevron-forward-outline"></ion-icon>
+          <h1>Portfolio </h1>
+          
+          <div id="myDropdown" class="dropdown-content">
+              <a href="../../index.html">Home</a>
+          </div>
+      </div>
+
+      
+  </header>
+
+
     <nav id="main-nav">
         <div class="container">
             <img src="img/logo.png" alt="News Grid Logo" class="logo">
@@ -53,7 +72,7 @@ rel="stylesheet">
         </div>
     </nav>
 
-    <header id="showcase">
+    <figure id="showcase">
         <div class="container">
             <div class="showcase-container">
 
@@ -75,7 +94,7 @@ rel="stylesheet">
                 </div>
             </div>
         </div>
-    </header>
+    </figure>
 
         <section id="home-articles" class="py-2">
 
@@ -275,6 +294,17 @@ rel="stylesheet">
 
         </div>
     </footer>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script src="../script.js"></script>
 
 </body>
 </html>

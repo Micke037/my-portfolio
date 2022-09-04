@@ -9,11 +9,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  box-sizing: border-box;
   color: hsl(234, 12%, 34%);
 }
+
 
 main {
   display: flex;
@@ -56,7 +60,7 @@ main {
 .boxes {
   display: flex;
   gap: 25px;
-  width: 1440px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   margin-bottom: 250px;
@@ -112,4 +116,5 @@ main {
   .boxes {
     flex-direction: column;
   }
+
 }

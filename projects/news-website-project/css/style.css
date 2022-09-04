@@ -186,7 +186,7 @@ background: var(--secondary-color);
 #main-nav {
     background: #fff;
     position: sticky;
-    top: 0;
+    top: 50px;
     z-index: 2;
 }
 
