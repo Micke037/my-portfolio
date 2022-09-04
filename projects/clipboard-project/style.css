@@ -14,7 +14,7 @@ body {
     color: hsl(210, 10%, 33%);
 }
 
-header {
+figure {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@ header {
 
 
 
-header svg {
+figure svg {
     margin-bottom: 50px;
 }
 

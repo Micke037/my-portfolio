@@ -12,8 +12,26 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="../header.css">
 </head>
 <body>
+
+    <header>
+
+        <div class="h1-box">
+            
+            <ion-icon onclick="myFunction()" class="dropbtn" name="chevron-forward-outline"></ion-icon>
+            <h1>Portfolio </h1>
+            
+            <div id="myDropdown" class="dropdown-content">
+                <a href="../../index.html">Home</a>
+            </div>
+        </div>
+  
+        
+    </header>
+
+
     <div class="menu-wrap">
 
         <input type="checkbox" class="toggler">
@@ -40,15 +58,24 @@
 
     </div>
 
-    <header id="showcase">
+    <figure id="showcase">
         <container class="container showcase-container">
             <h1>Welcome</h1>
             <p>Are you ready to begin your journey?</p>
                 <a href="#" class="btn">Explore</a>
         </container>
-    </header>
+    </figure>
     
-    
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="../script.js"></script>
 
 </body>
 </html>

@@ -11,6 +11,8 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+
+
 }
 
 @media (max-width: 75em) {
@@ -33,6 +35,7 @@
 
     .header {
         padding:0 3.2rem;
+        padding-top: 80px;
     }
 
     .hero {
