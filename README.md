@@ -1,2 +1,3 @@
-# Hi im Uros Milicevic and I am a FrontEnd Developer
-## Welcome to my Portfolio, built to Showcase my skills and previous projects
+# Hi im Uros Milicevic 
+# A frontend developer
+## Welcome to my portfolio, built to showcase my skills and previous projects
