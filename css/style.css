@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding: 10px;
-    background-color: rgba(34, 34, 34, 0.849);
+    background-color: #222;
     font-size: 14px;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
     position: absolute;
@@ -107,8 +107,6 @@ main p {
 .projects {
     padding: 50px;
     padding-top: 80px;
-    background-color: rgb(39, 38, 36);
-    border-top: 1px solid #f4f4f4;
 }
 
 .project-showcase {
@@ -124,17 +122,12 @@ main p {
     position: relative;
 }
 
-.img-link {
-    position: relative;
-    z-index: 2;
-}
-
 .click-me {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     font-size: 50px;
     font-weight: 200;
     top: 0;
@@ -161,26 +154,6 @@ main p {
     font-weight: 300;
     padding-left: 25px;
     font-size: 28px;
-    margin-bottom: 50px;
-}
-
-.showcase-p {
-    text-align: center;
-    font-weight: 200;
-    
-}
-
-.showcase-a {
-    text-decoration: none;
-    font-weight: 300;
-    color: #fff;
-    font-size: 20px;
-    transition: 0.2s;
-    text-decoration: underline;
-}
-
-.showcase-a:hover {
-    color: #cacaca;
 }
 
 .contact {
@@ -188,12 +161,10 @@ main p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(39, 38, 36);
-    border-top: 1px solid #f4f4f4;
 }
 
 .contact-me {
-    padding: 70px;
+    padding: 150px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.11);
     text-align: center;
@@ -221,12 +192,6 @@ main p {
     margin-bottom: 18px;
 }
 
-.contact-h11 {
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px #f4f4f4 solid;
-}
-
 
 
 @media (max-width: 850px) {
@@ -243,28 +208,20 @@ main p {
 }
 @media (max-width: 700px) {
     .contact-me {
-        padding: 30px;
-    }
-
-    .contact-h1 {
-        font-size: 40px;
+        padding: 100px;
     }
 }
 @media (max-width: 600px) {
     .contact-me {
-        padding: 30px;
-    }
-
-    .contact-h1 {
-        font-size: 40px;
+        padding: 50px;
     }
 }
 @media (max-width: 460px) {
     .contact-me {
-        padding: 30px;
+        padding: 40px;
     }
     .contact-h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
 
