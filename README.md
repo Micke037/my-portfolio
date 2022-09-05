@@ -1,3 +1,2 @@
-# Hi im Uros Milicevic 
-# A frontend developer
-## Welcome to my portfolio, built to showcase my skills and previous projects
+<h1 align="center">Hi 👋, I'm Uros Milicevic</h1>
+<h3 align="center">A frontend developer</h3>
