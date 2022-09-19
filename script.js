@@ -18,3 +18,10 @@ $(document).ready(function(){
     } 
   });
 });
+
+const typed = new Typed(".typing", {
+  strings: ["Frontend Developer", "CSS", "HTML", "JavaScript",],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true
+})
